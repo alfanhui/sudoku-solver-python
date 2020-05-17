@@ -4,9 +4,9 @@ This is a sudoku solver I created in 2015-2016. It check subsquares, virtical an
 
 ## How to run
 1. Set your puzzle
-    Edit the **unsolvedPuzzle** variable with your unsolved sudoku puzzle.
+    Edit the **setPuzzle** function with your unsolved sudoku puzzle.
     ```python
-   #Set your puzzle here.
+    #Set your puzzle here.
     def setPuzzle():
         puzzle = [[' ',' ',' ','9','1','3','7',' ',' '],
                   [' ','2',' ',' ','8',' ',' ','1',' '],
